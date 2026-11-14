@@ -1,5 +1,11 @@
 {
-  "name": "dd-pay",
+  "name": "ddpay",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
